@@ -1,4 +1,4 @@
-# PyConPL 2017 NetworkX
+# EuroSciPy 2017 NetworkX
 
 ### Set Up
 
@@ -9,6 +9,8 @@ For this tutorial, you will need Python3 and the following packages:
 - `matplotlib`
 - `numpy`
 - `scipy`
+- `ndlib`
+- `jupyter`
 
 Python2 may/may not work, no promises :)
 
@@ -16,14 +18,14 @@ Python2 may/may not work, no promises :)
 
 - `$ cd /path/to/your/directory`
 - Clone the repository from GitHub
-	 `$ git clone https://github.com/mriduls/pyconpl-2017-networkx`
-- `$ cd pyconpl-2017-networkx`
+	 `$ git clone https://github.com/mriduls/euroscipy-2017-networkx`
+- `$ cd euroscipy-2017-networkx`
 
 **OR**
 
-- Download the required notebooks from `https://github.com/MridulS/pyconpl-2017-networkx/archive/master.zip`
+- Download the required notebooks from `https://github.com/MridulS/euroscipy-2017-networkx/archive/master.zip`
 - unzip the files and change the directory to 
-		`$ cd pyconpl-2017-networkx-master` 
+		`$ cd euroscipy-2017-networkx-master` 
 
 ### Install packages 
 #### Using pip and virtualenv
@@ -31,16 +33,16 @@ Python2 may/may not work, no promises :)
 
 - Create a virtual environment for this tutorial, so that the installed packages do not mess with your regular Python environment.
     - `$ (sudo) pip install virtualenv`
-    - `$ virtualenv -p python3 pyconpl`
-    - `$ source pyconpl/bin/activate`
-- `$ pip install matplotlib networkx pandas numpy jupyter`
+    - `$ virtualenv -p python3 networkx`
+    - `$ source networkx/bin/activate`
+- `$ pip install matplotlib networkx pandas numpy jupyter ndlib`
 
 
 #### Using Anaconda
 If you have the Anaconda distribution of **Python 3** installed, then run the commands below.
 
 - `$ conda env create -f environment.yml`
-- `$ source activate pyconpl`
+- `$ source activate networkx`
 
 ### Check your environment:
 
