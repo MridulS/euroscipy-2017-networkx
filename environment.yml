@@ -1,0 +1,17 @@
+name: networkx
+channels:
+- defaults
+dependencies:
+- python=3.6
+- matplotlib
+- networkx
+- scipy
+- numpy
+- jupyter
+- jupyterlab
+- ipykernel
+- pandas
+
+- pip:
+    - environment_kernels
+    - ndlib
