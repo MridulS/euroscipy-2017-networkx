@@ -12,7 +12,7 @@ def check_import(packagename):
         return False
 
 packages = ['networkx', 'numpy', 'matplotlib', 'pandas',
-            'jupyter']
+            'jupyter', 'ndlib']
 
 all_passed = True
 
