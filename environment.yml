@@ -7,8 +7,6 @@ dependencies:
 - scipy
 - numpy
 - jupyter
-- jupyterlab
-- ipykernel
 - pandas
 
 - pip:
