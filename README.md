@@ -4,7 +4,7 @@
 
 For this tutorial, you will need Python3 and the following packages:
 
-- `networkx`
+- `networkx==2.0b2`
 - `pandas`
 - `matplotlib`
 - `numpy`
@@ -35,7 +35,7 @@ Python2 may/may not work, no promises :)
     - `$ (sudo) pip install virtualenv`
     - `$ virtualenv -p python3 networkx`
     - `$ source networkx/bin/activate`
-- `$ pip install matplotlib networkx pandas numpy jupyter ndlib`
+- `$ pip install matplotlib networkx==2.0b2 pandas numpy jupyter ndlib`
 
 
 #### Using Anaconda

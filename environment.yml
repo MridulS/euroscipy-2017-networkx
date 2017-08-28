@@ -4,7 +4,6 @@ channels:
 dependencies:
 - python=3.6
 - matplotlib
-- networkx
 - scipy
 - numpy
 - jupyter
@@ -15,3 +14,4 @@ dependencies:
 - pip:
     - environment_kernels
     - ndlib
+    - networkx==2.0b2
