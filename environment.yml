@@ -14,4 +14,4 @@ dependencies:
 - pip:
     - environment_kernels
     - ndlib
-    - networkx=2.0b2
+    - networkx==2.0b2
