@@ -1,5 +1,6 @@
 jupyter
 matplotlib
-networkx
+networkx==2.0b2
 pandas
 numpy
+ndlib
