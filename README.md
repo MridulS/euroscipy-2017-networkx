@@ -1,4 +1,5 @@
-# EuroSciPy 2017 NetworkX
+# EuroSciPy 2017 NetworkX [Not maintained]
+# Check https://github.com/MridulS/pydata-networkx for the latest version.
 
 ### Set Up
 
